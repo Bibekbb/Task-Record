@@ -1,0 +1,19 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block main %}
+ <body>
+    <br>
+    <br>
+
+    <div class="text-center">
+        <h3>Task Recorder... Your Task Management Companion!</h3>
+        <br>
+        <h5>Capture Every Task, Every Time!</h5>
+        <hr>
+        <br>
+        <a href="{% url 'register' %}" class="btn btn-primary" type="button" >Create your account &nbsp; <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+    </div>
+    {% comment %} <video src="{{ static 'img/record.mp4' }}" controls></video> {% endcomment %}
+ </body>
+
+{% endblock main %}

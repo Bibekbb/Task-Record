@@ -1,0 +1,28 @@
+
+.form-layout{
+    border-radius: 15px;
+    width: 500px;
+    
+}
+
+
+td img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+
+
+
+.message-text{
+    color: white;
+    
+}
